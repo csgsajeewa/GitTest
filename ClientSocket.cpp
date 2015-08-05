@@ -34,7 +34,7 @@ int ClientSocket::connectToServer(char* ipAddress, char* portNumber) {
     }
 
 
-  master master master master 
+  master master 
 
     freeaddrinfo(info);
     socketId = clientSocketId;
