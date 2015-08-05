@@ -34,9 +34,7 @@ int ClientSocket::connectToServer(char* ipAddress, char* portNumber) {
     }
 
   
-    freeaddrinfo(info);
-    socketId = clientSocketId;
-    std::cout << "connected to " << ip << port << std::endl;
+  
     return 0;
 }
 
