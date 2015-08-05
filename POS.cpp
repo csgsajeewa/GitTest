@@ -5,7 +5,7 @@
 POS::POS() {
 
 	cout << "mithra drohi kema, horen pizza kava" << endl;
-	cout << "add line to master branch" << endl;
+	cout << "test branch"
 }
 
 POS::POS(const POS& orig) {
