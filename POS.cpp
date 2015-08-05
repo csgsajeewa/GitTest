@@ -3,6 +3,8 @@
 #define BUFFER_SIZE 1024
 
 POS::POS() {
+
+	cout << "mithra drohi kema, horen pizza kava" << endl;
 }
 
 POS::POS(const POS& orig) {
