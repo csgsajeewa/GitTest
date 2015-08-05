@@ -64,5 +64,7 @@ int ServerSocket::run() {
     }
     std::cout << "connection received" << std::endl;
     socketId = peer;
+
+	cout << hello keeammma << endl
     return 0;
 }

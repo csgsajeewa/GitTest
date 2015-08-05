@@ -34,10 +34,7 @@ int ClientSocket::connectToServer(char* ipAddress, char* portNumber) {
     }
 
     
-    if (connect(clientSocketId, info->ai_addr, info->ai_addrlen) == -1) {
-        std::cout << "unable to connect socket " << ip << port << std::endl;
-        return -1;
-    }
+  master master master master 
     freeaddrinfo(info);
     socketId = clientSocketId;
     std::cout << "connected to " << ip << port << std::endl;
