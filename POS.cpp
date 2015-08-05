@@ -33,7 +33,7 @@ void POS::start(char* ip, char* port) {
             break;
 
         //receive part
-
+		kema modaya :p :p 
         ReceiveMessage* r = clientSocket.receive();   
         if (r->length == -1) {
             cout << "recv error"<< endl;
